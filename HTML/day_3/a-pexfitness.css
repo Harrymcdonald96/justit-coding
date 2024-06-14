@@ -1,0 +1,177 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header.hero {
+    background-image: url('/HTML/day_3/apexfitness_assets/1.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+header.hero .logo {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+header.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header.hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 4rem 1rem;
+}
+
+.about {
+    background-color: #333;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.about .text-content {
+    flex: 1;
+}
+
+.about .image-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.about .image-content img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about h2 {
+    color: #ff6347;
+    font-size: 2rem;
+}
+
+.about p {
+    margin: 1rem 0;
+}
+
+.about .learn-more {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.offer {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.offer h2 {
+    color: #ff6347;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.offer-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.offer-item {
+    flex: 1;
+    text-align: center;
+}
+
+.offer-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.offer-item h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.testimonials {
+    background-color: #333;
+}
+
+.testimonials h2 {
+    color: #ff6347;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 2rem;
+}
+
+.testimonial-item {
+    flex: 1;
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonial-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.testimonial-item p {
+    margin: 1rem 0;
+}
+
+.contact {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ff6347;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 0;
+}

@@ -1,0 +1,168 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container for consistent width */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-background {
+    background-image: url('/HTML/day_4/assets/1.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Services Section */
+.services {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 2rem;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Promo Section */
+.promo {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.promo-background {
+    background-image: url('images/1.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.promo-text h2 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/* Safety Section */
+.safety {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.safety-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.safety-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 2rem;
+}
+
+.contact p {
+    margin-bottom: 1rem;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,59 @@
+/* Container for all product cards */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9; /* Slightly off-white background for the container */
+}
+
+/* General styles for each product card */
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Image styling */
+.card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd; /* Visual separation from the content */
+}
+
+/* Card title */
+.card-title {
+    padding: 10px 15px; /* Consistent padding around the text */
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0; /* Removes default margin */
+}
+
+/* Card price */
+.card-price {
+    padding: 0 15px;
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+/* Add to cart button */
+.card-button {
+    padding: 10px 15px;
+    background-color: #4ec3e4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.card-button:hover {
+    background-color: #33cde4; /* Darker shade on hover */
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html> <!--  tells webbrowser we are using html5-->
+<html lang="en"><!--  tells the browser we are coding in html-->
+<head> <!--  deals with supporting content need for the site function -->
+    <meta charset="UTF-8"><!--  meta data tag - keyboard compatability-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- meta data tag - dealing with the viewport (display)-->
+    <title>Document</title><!--  this would be seen on the tab of the browser-->
+</head>
+<body><!--  this is the main event - EVERYTHING IN HERE IS SEEN BY THE USER -->
+
+</head>
+<body>
+    <!-- Heading -->
+     <h1>HELLO CLASS OF 2024 SOFWTWARE DEVELOPMENT</h1>
+    
+    <!-- Paragraph -->
+    <p>We have currentlly been tasked with putting together a HTML webpage. </p>
+    <p>Webpage must include appropriate HTML document structure and at least one working example</p>
+    <p>of each of the following elements: </p>
+
+     <!-- Unordered list, use <ol> for an ordered list -->
+        <ol> <!-- Ordered list, use <ul> for an unordered list -->
+            <li>Header</li>
+            <li>Paragraph</li>
+            <li>Anchor</li>
+            <li>Image</li>
+            <li>List</li>
+            <li>Table</li>
+        </ol>
+    
+    
+    <p> I have put the list above into a table with the element,discription and example Bellow.</p>
+
+    <h1>HTML Elements Summary</h1>
+    <table border="1">
+        <tr>
+            <th>Element</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>Header</td>
+            <td>Used for headings within the document. HTML offers six levels of headings, from h1 (the largest) to h6 (the smallest).</td>
+            <td>&lt;h1&gt;This is a Header&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+            <td>Paragraph</td>
+            <td>Defines a block of text as a paragraph.</td>
+            <td>&lt;p&gt;This is a paragraph.&lt;/p&gt;</td>
+        </tr>
+        <tr>
+            <td>Anchor</td>
+            <td>Creates a hyperlink to other web pages, files, locations within the same page, or any URL.</td>
+            <td>&lt;a href="https://www.example.com"&gt;Visit Example.com&lt;/a&gt;</td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>Embeds an image into the document.</td>
+            <td>&lt;img src="image.jpg" alt="Description of Image"&gt;</td>
+        </tr>
+        <tr>
+            <td>List</td>
+            <td>Used to list items. Can be ordered (ol) or unordered (ul).</td>
+            <td>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</td>
+        </tr>
+        <tr>
+            <td>Table</td>
+            <td>Used to display tabular data.</td>
+            <td>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Data 1&lt;/td&gt;&lt;td&gt;Data 2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</td>
+        </tr>
+    </table>
+    
+    <p>For more detailed information on HTML, visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs - HTML</a>.</p>
+
+
+   <!-- Other HTML content above -->
+
+<!-- Adding the screenshot at the bottom of your webpage -->
+<p>Here is a screenshot of the MDN Web Docs page:</p>
+<img src="Untitled design (1).png" alt="Screenshot of MDN Web Docs">
+
+<!-- Further content can continue below -->
+
+<h1>Feedback on Our HTML Tutorial</h1>
+<p>Please fill out this form to help us improve our content.</p>
+<form action="/submit-feedback" method="post" enctype="multipart/form-data">
+    <!-- Radio Buttons for Rating -->
+    <h2>How helpful was the tutorial?</h2>
+    <label><input type="radio" name="helpfulness" value="very helpful" required> Very Helpful</label><br>
+    <label><input type="radio" name="helpfulness" value="somewhat helpful"> Somewhat Helpful</label><br>
+    <label><input type="radio" name="helpfulness" value="not helpful"> Not Helpful</label><br>
+
+    <!-- Checkboxes for Topics Covered -->
+    <h2>What topics were you interested in? (Check all that apply)</h2>
+    <label><input type="checkbox" name="topic" value="HTML basics"> HTML Basics</label><br>
+    <label><input type="checkbox" name="topic" value="Forms"> Forms</label><br>
+    <label><input type="checkbox" name="topic" value="Tables"> Tables</label><br>
+
+    <!-- File Upload for Additional Comments or Screenshots -->
+    <h2>If you have any screenshots of issues, please upload them:</h2>
+    <label>Upload File: <input type="file" name="screenshot"></label><br>
+
+    <!-- Textarea for Additional Comments -->
+    <h2>Any additional comments or suggestions?</h2>
+    <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br>
+
+    <!-- Dropdown List for Region Selection in the UK -->
+    <h2>Which region of the UK are you from?</h2>
+    <select name="region" title="Region">
+        <option value="england">England</option>
+        <option value="scotland">Scotland</option>
+        <option value="wales">Wales</option>
+        <option value="northern ireland">Northern Ireland</option>
+    </select><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit Feedback">
+</form>
+
+
+</body>
+</html>
+
+
+

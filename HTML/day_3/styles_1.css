@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #4A90E2;
+    --text-color: #FFFFFF;
+    --background-color: #F4F4F4;
+    --footer-background: #222222;
+    --content-padding: 20px;
+}
+
+.site-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    color: #333;
+}
+
+.site-header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: var(--content-padding);
+    text-align: center;
+}
+
+.header-title {
+    margin: 0; /* Ensures no default margin is applied */
+}
+
+.site-main {
+    padding: var(--content-padding);
+}
+
+.info-section {
+    margin-bottom: var(--content-padding);
+    background-color: white;
+    padding: var(--content-padding);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: var(--primary-color); /* Uses primary color for emphasis */
+}
+
+.section-text {
+    line-height: 1.6; /* Enhances readability */
+}
+
+.site-footer {
+    background-color: var(--footer-background);
+    color: var(--text-color);
+    text-align: center;
+    padding: var(--content-padding);
+}
+
+.footer-text {
+    margin: 0 ;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: var(--content-padding);
+    text-align: center;
+}

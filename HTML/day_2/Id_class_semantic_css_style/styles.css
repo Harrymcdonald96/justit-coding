@@ -1,0 +1,60 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+.site-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* About section styles */
+#about-section {
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Services section styles */
+#services-section {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

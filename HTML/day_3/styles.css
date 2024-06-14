@@ -1,0 +1,114 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusts nav and logo positions */
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.header-logo {
+    height: 50px; /* Larger size for prominence */
+    width: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center if alone in the header */
+    display: block; /* Ensures it is centered if no other content is on its line */
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    margin-left: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* About section styles */
+.about-container {
+    display: flex;
+    align-items: center;  /* Vertically aligns the content */
+    justify-content: space-between;  /* Distributes space between text and image */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for the section */
+}
+
+.about-content {
+    flex: 1;  /* Allows the text block to fill the space */
+    margin-right: 20px;  /* Adds spacing between the text and the image */
+}
+
+.about-image {
+    width: 100%; /* Ensures the image is responsive and fits the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: Adds a subtle shadow for depth */
+    margin-top: 20px; /* Adds some space between the text and the image */
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Add this new rule for smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* About section styles */
+.about-container {
+    display: flex;
+    align-items: center;  /* Vertically aligns the content */
+    justify-content: space-between;  /* Distributes space between text and image */
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Adds rounded corners */
+    background-color: #f4f4f4; /* Light background for the section */
+}
+
+.about-content {
+    flex: 1;  /* Allows the text block to fill the space */
+    margin-right: 20px;  /* Adds spacing between the text and the image */
+}
+
+.about-image {
+    width: 100%; /* Ensures the image is responsive and fits the container */
+    height: 100px; /* Maintains the aspect ratio of the image */
+    border-radius: 5px; /* Consistent with container rounding */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: Adds a subtle shadow for depth */
+}
+
+
